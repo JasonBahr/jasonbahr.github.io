@@ -1,0 +1,78 @@
+body {
+  background: rgb(10, 16, 17, 1);
+}
+
+/* header {
+  display: none;
+} */
+
+h1 {
+  font-size: 4rem;
+}
+
+.container-form {
+  margin-top: 6rem;
+  height: 90%;
+  min-width: 50%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+
+.form-email {
+  background-color: rgb(54, 137, 151);
+  padding: 2rem;
+  border-radius: 35px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  /* border: 2px solid red; */
+}
+
+.contact-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(200, 200, 200);
+  text-align: center;
+  flex: 1 1 auto;
+  /* border: 2px solid red; */
+}
+
+.input {
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  height: 3rem;
+  width: 26rem;
+  flex: 1 1 auto;
+}
+
+.input:focus {
+  outline: 4px solid rgb(116, 243, 215);
+}
+
+.message {
+  font-size: 1rem;
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.button {
+  height: 40px;
+  width: 30%;
+  background-color: rgb(98, 206, 182);
+  color: rgb(10, 16, 17, 1);
+  border: none;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: rgb(116, 243, 215);
+  cursor: pointer;
+}

@@ -5,7 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jason Bahr | Contact</title>
     <link rel="stylesheet" href="./resources/style.css" />
+    <link rel="stylesheet" href="./resources/contact.css" />
   </head>
   <body>
+    <header>
+      <div class="home">
+        <a href="index.html#">Home</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container-form">
+      <form action="" method="post" class="form-email">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder=" Name"
+          class="input name"
+          required
+        />
+        <br />
+        <br />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder=" Email"
+          class="input email"
+          required
+        />
+        <br />
+        <br />
+        <textarea
+          name="message"
+          id="message"
+          placeholder=" Message"
+          class="input message"
+          required
+        ></textarea>
+        <br />
+        <br />
+        <input type="button" value="Submit" class="button submit" />
+      </form>
+
+      <div class="contact-message">
+        <h1>Reach Out</h1>
+        <h2>Contact Me</h2>
+      </div>
+    </div>
   </body>
 </html>
