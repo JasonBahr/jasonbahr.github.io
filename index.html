@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="./resources/style.css" />
   </head>
   <body>
-    <div class="menu-button"></div>
-    <header>
-      <div class="home">
+    <header id="big-menu">
+      <div class="home" id="home">
         <a href="#">Home</a>
       </div>
       <nav>
@@ -21,6 +20,10 @@
       </nav>
     </header>
 
+    <div class="menu" id="menu-button">
+      <img src="./resources/icons/menu-bar.png" alt="menu icon">
+    </div>
+
     <div class="banner"></div>
     <div class="container">
       <div class="banner_info">
@@ -29,10 +32,12 @@
           <h3>Front-End Developer</h3>
         </div>
         <div class="info-pic">
-          <img
-            src="./resources/images/JB_sitting.jpg"
-            alt="image of Jason Bahr"
-          />
+          <a href="./contact.html">
+            <img
+              src="./resources/images/JB_sitting.jpg"
+              alt="image of Jason Bahr"
+            />
+          </a>
         </div>
       </div>
     </div>
@@ -63,13 +68,48 @@
     <div class="projects" id="projects">
       <h2>Projects</h2>
       <div class="container-projects">
-        <div class="project-item">
-          <img src="" alt="project image" />
-          <h4>Project Name</h4>
-          <p>Purpose:</p>
-          <p>Language:</p>
+        <!-- CoderOrk project item -->
+        <div class="project-item coderork">
+          <a href="./resources/images/CoderOrk_Full_Site.png" target="_blank">
+            <img
+              src="./resources/images/coderork.github.io_.png"
+              alt="project image"
+            />
+          </a>
+          <div class="project-description">
+            <h4>CoderOrk Website</h4>
+            <p>
+              <span class="bold">Purpose:</span> Learn basic website
+              construction
+            </p>
+            <p><span class="bold">Languages:</span> HTML, CSS</p>
+          </div>
+        </div>
+
+        <!-- space scoundrels project item -->
+        <div class="project-item ssoundrels">
+          <a
+            href="./resources/images/SScoundrels_Full_Site.png"
+            target="_blank"
+          >
+            <img
+              src="./resources/images/SScoundrels_Webpage.png"
+              alt="project image"
+            />
+          </a>
+          <div class="project-description">
+            <h4>Navigators Club Website</h4>
+            <p><span class="bold">Purpose:</span> Learn responsive design</p>
+            <p><span class="bold">Languages:</span> HTML, CSS</p>
+          </div>
         </div>
       </div>
     </div>
+    <script src="./main.js"></script>
   </body>
 </html>
+
+<!--
+Links for Icons Credits
+<a href="https://www.flaticon.com/free-icons/menu-bar" title="menu bar icons">Menu bar icons created by Md Tanvirul Haque - Flaticon</a>
+-->

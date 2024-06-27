@@ -39,6 +39,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid rgb(54, 137, 151);
+  display: none;
 }
 
 header p {
@@ -63,6 +64,28 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: rgb(158, 158, 158);
+}
+
+.menu {
+  display: block;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  height: 3rem;
+  width: 3rem;
+  background-color: rgb(54, 137, 151);
+  border-radius: 10px;
+  z-index: 5;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.menu img {
+  height: 100%;
+  width: 100%;
+  opacity: .5;
 }
 
 .home {
@@ -164,4 +187,27 @@ nav ul li a:hover {
 
 .container-projects {
   display: flex;
+  flex-flow: row wrap;
+}
+
+.project-item {
+  margin: 3rem;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-description {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-item img {
+  height: 10rem;
+}
+
+.bold {
+  font-weight: 700;
 }

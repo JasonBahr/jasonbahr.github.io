@@ -10,7 +10,54 @@ h1 {
   font-size: 4rem;
 }
 
-.container-form {
+h2 {
+  text-align: left;
+}
+
+.contact {
+  margin: 8rem 4rem;
+  display: flex;
+  justify-content: center;
+  width: 750px;
+  max-width: 100%;
+  min-height: 400px;
+  /* background-color: rgb(54, 137, 151); */
+}
+
+.contact-message {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex: auto 1 1;
+  background-color: rgb(54, 137, 151);
+  border-radius: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(158, 158, 158);
+}
+.mail {
+  height: 2rem;
+}
+
+.linked-in {
+  height: 1.75rem;
+}
+
+.github {
+  height: 2rem;
+}
+/* .container-form {
   margin-top: 6rem;
   height: 90%;
   min-width: 50%;
@@ -18,7 +65,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .form-email {
@@ -29,7 +76,7 @@ h1 {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-  /* border: 2px solid red; */
+  border: 2px solid red; 
 }
 
 .contact-message {
@@ -40,7 +87,7 @@ h1 {
   color: rgb(200, 200, 200);
   text-align: center;
   flex: 1 1 auto;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .input {
@@ -75,4 +122,14 @@ h1 {
 .button:hover {
   background-color: rgb(116, 243, 215);
   cursor: pointer;
-}
+} */
+
+/* 
+Photo Credits: Sunny Martini
+
+Links for icon credits:
+<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Smashicons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Google - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
+*/
