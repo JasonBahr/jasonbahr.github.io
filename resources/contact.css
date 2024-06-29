@@ -1,27 +1,64 @@
+@media only screen and (max-width: 1050px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  html {
+    font-size: 14px;
+  }
+}
+
 body {
   background: rgb(10, 16, 17, 1);
 }
 
-/* header {
-  display: none;
-} */
-
 h1 {
   font-size: 4rem;
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
 
 h2 {
   text-align: left;
 }
 
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
 .contact {
-  margin: 8rem 4rem;
+  margin: 7rem 0 0 4rem;
   display: flex;
   justify-content: center;
-  width: 750px;
-  max-width: 100%;
-  min-height: 400px;
-  /* background-color: rgb(54, 137, 151); */
+  width: 50%;
+  /* max-width: 50%; */
+  height: 80%;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact {
+    margin: 7rem auto;
+  }
 }
 
 .contact-message {
@@ -33,19 +70,35 @@ h2 {
   border-radius: 20px;
 }
 
+.small {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .big {
+    display: none;
+  }
+
+  .small {
+    display: block;
+  }
+}
+
 ul {
   list-style-type: none;
+  margin: 30px 0;
 }
 
 li {
   float: left;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 
 a {
   text-decoration: none;
   color: rgb(158, 158, 158);
 }
+
 .mail {
   height: 2rem;
 }
@@ -57,72 +110,6 @@ a {
 .github {
   height: 2rem;
 }
-/* .container-form {
-  margin-top: 6rem;
-  height: 90%;
-  min-width: 50%;
-  max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border: 2px solid red;
-}
-
-.form-email {
-  background-color: rgb(54, 137, 151);
-  padding: 2rem;
-  border-radius: 35px;
-  color: rgb(0, 0, 0);
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  border: 2px solid red; 
-}
-
-.contact-message {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: rgb(200, 200, 200);
-  text-align: center;
-  flex: 1 1 auto;
-  border: 2px solid red;
-}
-
-.input {
-  font-size: 1rem;
-  border: none;
-  border-radius: 10px;
-  height: 3rem;
-  width: 26rem;
-  flex: 1 1 auto;
-}
-
-.input:focus {
-  outline: 4px solid rgb(116, 243, 215);
-}
-
-.message {
-  font-size: 1rem;
-  width: 500px;
-  height: 200px;
-  border-radius: 10px;
-}
-
-.button {
-  height: 40px;
-  width: 30%;
-  background-color: rgb(98, 206, 182);
-  color: rgb(10, 16, 17, 1);
-  border: none;
-  border-radius: 10px;
-}
-
-.button:hover {
-  background-color: rgb(116, 243, 215);
-  cursor: pointer;
-} */
 
 /* 
 Photo Credits: Sunny Martini
