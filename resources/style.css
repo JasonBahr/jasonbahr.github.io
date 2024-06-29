@@ -51,6 +51,12 @@ header {
   font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 400px) {
+  header {
+    height: 8%;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   header a {
     font-size: 1.25rem;
